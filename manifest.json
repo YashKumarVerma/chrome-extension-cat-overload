@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "CAT Overload",
+  "version": "0.1.0",
+  "description": "Let cats take over the internet",
+
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
